@@ -1,5 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import AboutThePlatfrom from "./AboutThePlatfrom";
+import ArtWorks from "./ArtWorks";
 import Banner from "./Banner";
 import Mint from "./Mint";
 
@@ -13,6 +14,7 @@ const Home = () => {
             <Banner />
             <Mint />
             <AboutThePlatfrom />
+            <ArtWorks />
         </div>
     );
 };
