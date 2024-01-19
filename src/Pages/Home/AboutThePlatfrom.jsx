@@ -8,9 +8,10 @@ import { GiMiddleArrow } from "react-icons/gi";
 
 const AboutThePlatfrom = () => {
     return (
-        <div className="w-9/12 mx-auto">
-            <div>
-                <div className="flex justify-center py-8">
+        <div >
+
+            <div className="w-9/12 mx-auto">
+                <div className="flex justify-center py-8 ">
                     <img src={divider} className="w-24" alt="" />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -43,7 +44,7 @@ const AboutThePlatfrom = () => {
                     <div className="flex justify-center py-8">
                         <img src={divider} className="w-24" alt="" />
                     </div>
-                    <h2 className="text-7xl font-bold text-center py-10">About the platform</h2>
+                    <h2 className="text-7xl font-bold text-center py-16">About the platform</h2>
 
                     {/* about main section */}
                     <div className="flex justify-between gap-16 py-10">
@@ -52,7 +53,7 @@ const AboutThePlatfrom = () => {
                         </div>
                         <div className="w-full md:w-3/7 space-y-5">
                             <h2 className="font-extrabold bg-gradient-to-r from-purple-500 to-pink-600 text-transparent bg-clip-text ">CREATE AND INVEST</h2>
-                            <h1 className="text-6xl font-extrabold ">Create your own NFT</h1>
+                            <h1 className="text-5xl font-extrabold ">Create your own NFT</h1>
                             <p className="text-xl text-slate-400">Multiple Chains, One Home. Stack up all your NFTs from across blockchains.</p>
                             <div className="flex mt-6 justify-between gap-24 space-x-10">
                                 <div className="space-y-4 w-1/2">
@@ -67,38 +68,42 @@ const AboutThePlatfrom = () => {
                             </div>
                         </div>
                     </div>
-                    {/* about last section */}
-                    <div>
-                        <div className="flex">
-                            {/* text area */}
-                            <div>
-                                <h3 className="font-bold bg-gradient-to-r from-indigo-700 to-pink-600 text-transparent bg-clip-text">SYNC AND TRACK</h3>
-                                <h2 className="text-5xl font-extrabold">Multiple Chains, One Home</h2>
-                                <p className="text-xl text-slate-400">We make it easy to Discover, Invest and manage all your NFTs at one place, looked up one of the more obscure.Find the right NFT collections to buy within the platform.</p>
-                                <div className="flex justify-between">
-                                    <div>
-                                        <p><BiWalletAlt />
-                                        </p>
-                                        <p>Collections Indexed every 5mins.</p>
-                                    </div>
-                                    <div>
-                                        <p><GiMiddleArrow />
-                                        </p>
-                                        <p>Collections Indexed every 5mins.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* image area */}
-                            <div>
-                                <img src={feature2} alt="" />
 
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
             </div>
+            {/* about last section */}
+            <div className="py-16 w-11/12 mx-auto">
+                <div className="flex">
+                    {/* text area */}
+                    <div className="w-1/2 space-y-6">
+                        <h3 className="font-bold bg-gradient-to-r from-indigo-400 to-pink-600 text-transparent bg-clip-text">SYNC AND TRACK</h3>
+                        <h2 className="text-6xl font-extrabold">Multiple Chains, <br /> One Home</h2>
+                        <p className="text-xl text-slate-500">We make it easy to Discover, Invest and manage all your NFTs <br />    at one place, looked up one of the more obscure.Find the right NFT collections to buy within the platform.</p>
+                        <div className="flex justify-between ">
+                            <div className="flex gap-3 justify-center ">
+                                <button className=" p-2 rounded-3xl bg-gradient-to-r from-indigo-600 to-pink-600"><BiWalletAlt className="text-6xl" />
+                                </button>
+                                <p className=" text-xl mt-2 ">Collections Indexed <br /> every 5mins.</p>
+                            </div>
+                            <div className="flex gap-3 ">
+                                <button className=" p-2 rounded-3xl bg-gradient-to-r from-indigo-600 to-pink-600"><GiMiddleArrow className="text-6xl" />
+                                </button>
+
+                                <p className="text-xl mt-2">Difference in Floor &   <br /> Estimated Value.</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* image area */}
+                    <div className="w-1/2 px-8">
+                        <img src={feature2} alt="" />
+
+                    </div>
+                </div>
+            </div>
         </div>
+
     );
 };
 
