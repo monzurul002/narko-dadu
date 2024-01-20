@@ -105,9 +105,9 @@ const QuestionStuff = () => {
             </div>
             {/* foooter */}
             <div className="mt-12">
-                <hr className="border-1 border-slate-300 py-8 " />
-                <div className="flex justify-between mt-4 text-slate-300 px-10 relative">
-                    <p>© 2023 Nerko. All rights reserved.</p>
+
+                <div className="flex justify-between mt-4 text-slate-300 border-t p-4 px-10 relative">
+                    <p >© 2023 Nerko. All rights reserved.</p>
                     <p>Privacy policy
                         Terms of use</p>
                     <img src={circle3} className="absolute bottom-0 left-80 top-2 w-8 " alt="" />

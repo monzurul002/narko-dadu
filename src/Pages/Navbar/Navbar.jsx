@@ -5,11 +5,11 @@ import { FaDiscord, FaXTwitter } from "react-icons/fa6";
 const Navbar = () => {
     const navitems = <>
         <li><Link to='/'>Home</Link> </li>
-        <li><a href='#banner'>Minting</a> </li>
-        <li><a href='#banner2'>About</a> </li>
-        <li><Link to='/'>Colection</Link> </li>
-        <li><Link to='/'>Roadmap</Link> </li>
-        <li><Link to='/' >Blog</Link> </li>
+        <li><a href='#minting'>Minting</a> </li>
+        <li><a href='#about'>About</a> </li>
+        <li><a href='#collection'>Colection</a> </li>
+        <li><a href='#roadmap'>Roadmap</a> </li>
+        <li><Link to='/blogs' >Blog</Link> </li>
     </>
     return (
         <div className="navbar text-white z-20 fixed top-0 font-semibold   bg-opacity-30 w-full bg-[#0F051D]">

@@ -10,7 +10,7 @@ const AboutThePlatfrom = () => {
     return (
         <div >
 
-            <div className="w-9/12 mx-auto">
+            <div className="w-9/12 mx-auto" id="about">
                 <div className="flex justify-center py-8 ">
                     <img src={divider} className="w-24" alt="" />
                 </div>
