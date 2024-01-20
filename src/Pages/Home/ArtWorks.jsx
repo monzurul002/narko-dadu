@@ -7,6 +7,8 @@ import art5 from '../../assets/gallery/art_05.jpg'
 import art6 from '../../assets/gallery/art_06.jpg'
 import art7 from '../../assets/gallery/art_07.jpg'
 import art8 from '../../assets/gallery/art_08.jpg'
+import { FaArrowRight } from "react-icons/fa";
+
 const ArtWorks = () => {
     return (
         <div className="w-11/12 mx-auto py-5">
@@ -97,6 +99,13 @@ const ArtWorks = () => {
                         </div>
                     </div>
 
+                </div>
+                <div className="text-center py-12">
+                    <button className="px-6 font-bold rounded-full   py-5 bg-gradient-to-r from-indigo-600 to-pink-500">View more in Youtube <FaArrowRight className="inline" />
+                    </button>
+                </div>
+                <div className="flex justify-center py-8 ">
+                    <img src={divider} className="w-24" alt="" />
                 </div>
             </div>
 
