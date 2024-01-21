@@ -9,13 +9,13 @@ import { Slide } from "react-reveal"
 const Mint = () => {
     return (
 
-        <Slide bottom>
-            <div className="text-center py-8 relative" id="minting">
+        <div className="text-center py-8  relative" id="minting">
+            <Slide bottom>
                 <div className="flex justify-center py-8">
                     <img src={divider} className="w-24" alt="" />
                 </div>
                 <div >
-                    <h1 className="text-6xl font-extrabold py-4">How To Mint</h1>
+                    <h1 className="text-4xl md:text-6xl font-extrabold py-4">How To Mint</h1>
                     <img src={circle} className="absolute w-5 top-52 left-48" alt="" />
                     <div className="w-4/5 mx-auto  mt-10 grid md:grid-cols-2 grid-cols-1 gap-6">
                         {/* card-1 */}
@@ -67,8 +67,8 @@ const Mint = () => {
 
 
 
-            </div>
-        </Slide>
+            </Slide>
+        </div>
 
     );
 };

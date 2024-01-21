@@ -16,7 +16,7 @@ const QuestionStuff = () => {
                 <img src={divider} className="w-24" alt="" />
             </div>
 
-            <h1 className="text-6xl font-bold text-center py-14">Asked Questions</h1>
+            <h1 className=" text-5xl md:text-6xl font-bold text-center py-14">Asked Questions</h1>
             <div className="w-2/3 mx-auto card-container ">
                 <div className="join join-vertical w-full">
                     <div className="collapse collapse-arrow join-item ">
@@ -73,7 +73,7 @@ const QuestionStuff = () => {
             </div>
             <div>
                 <div className="relative">
-                    <h1 className="text-8xl font-extrabold text-center py-14">Lets start <br /> minting</h1>
+                    <h1 className="text-5xl md:text-8xl font-extrabold text-center py-14">Lets start <br /> minting</h1>
                     <div className="text-center py-12">
                         <button className="px-6 font-bold rounded-full   py-5 bg-gradient-to-r from-indigo-600 to-pink-500">Join Our Community <FaArrowRight className="inline animate-spin-slow" />
                         </button>

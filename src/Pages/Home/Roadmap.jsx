@@ -29,7 +29,7 @@ const Roadmap = () => {
                             pagination={{
                                 clickable: true,
                             }}
-                            // modules={[Pagination, Navigation]}
+
                             modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                             className="mySwiper"
                         >

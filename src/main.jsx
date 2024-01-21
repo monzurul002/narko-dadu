@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='bg-gradient-to-r from-[#120535] via-[#0f051d]	  to-[#120535]  text-white'>
+    <div className='bg-gradient-to-r from-[#120535] via-[#0f051d]	  to-[#120535]  text-white overflow-hidden'>
 
       <RouterProvider router={router} />
     </div>

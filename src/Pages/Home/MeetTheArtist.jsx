@@ -18,9 +18,9 @@ const MeetTheArtist = () => {
                     <h1 className="text-center text-6xl py-7 font-extrabold">Meet the artists</h1>
                     <img src={eherium} className="w-7 ml-10 animate-spin-slow" alt="" />
 
-                    <div className="grid grid-cols-5 md:gird-cols-5 w-11/12 mx-auto ">
+                    <div className="grid grid-cols-1 md:grid-cols-5 gap-2 w-11/12 mx-auto ">
                         {/* art1 */}
-                        <div className="card w-60 h-96 card-container rounded-3xl mt-4 shadow-xl">
+                        <div className="card  mx-auto w-60 h-96 card-container rounded-3xl mt-4 shadow-xl">
                             <figure className="px-1 pt-2">
                                 <img src={artist1} alt="Shoes" className="rounded-3xl mt-2 w-52 h-60  " />
                             </figure>
@@ -35,7 +35,7 @@ const MeetTheArtist = () => {
                             </div>
                         </div>
                         {/* art2 */}
-                        <div className="card w-60 h-96 card-container rounded-3xl mt-14 shadow-xl">
+                        <div className="card mx-auto w-60 h-96 card-container rounded-3xl mt-14 shadow-xl">
                             <figure className="px-1 pt-2">
                                 <img src={artist2} alt="Shoes" className="rounded-3xl mt-2 w-52 h-60  " />
                             </figure>
@@ -50,7 +50,7 @@ const MeetTheArtist = () => {
                             </div>
                         </div>
                         {/* art3 */}
-                        <div className="card w-60 h-96 card-container rounded-3xl mt-4 shadow-xl">
+                        <div className="card w-60 mx-auto h-96 card-container rounded-3xl mt-4 shadow-xl">
                             <figure className="px-1 pt-2">
                                 <img src={artist3} alt="Shoes" className="rounded-3xl mt-2 w-52 h-60  " />
                             </figure>
@@ -65,7 +65,7 @@ const MeetTheArtist = () => {
                             </div>
                         </div>
                         {/* art4 */}
-                        <div className="card w-60 h-96 card-container rounded-3xl mt-14 shadow-xl">
+                        <div className="card w-60 mx-auto h-96 card-container rounded-3xl mt-14 shadow-xl">
                             <figure className="px-1 pt-2">
                                 <img src={artist4} alt="Shoes" className="rounded-3xl mt-2 w-52 h-60  " />
                             </figure>
@@ -80,7 +80,7 @@ const MeetTheArtist = () => {
                             </div>
                         </div>
                         {/* art5 */}
-                        <div className="card w-60 h-96 card-container rounded-3xl mt-4 shadow-xl">
+                        <div className="card w-60  mx-auto h-96 card-container rounded-3xl mt-4 shadow-xl">
                             <figure className="px-1 pt-2">
                                 <img src={artist5} alt="Shoes" className="rounded-3xl mt-2 w-52 h-60  " />
                             </figure>

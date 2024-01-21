@@ -13,7 +13,7 @@ import { FaArrowRight } from "react-icons/fa";
 const ArtWorks = () => {
     return (
         <Slide bottom>
-            <div className="w-11/12 mx-auto py-5" id="collection">
+            <div className="w-full  md:w-11/12 mx-auto py-5" id="collection">
                 <div className="flex justify-center py-8 ">
                     <img src={divider} className="w-24" alt="" />
                 </div>
@@ -21,9 +21,9 @@ const ArtWorks = () => {
                     <h1 className="text-6xl text-center font-extrabold py-10">Latest artworks</h1>
                     <div className="grid grid-cols-1 md:grid-cols-4 mt-8">
                         {/* art1 */}
-                        <div className="card w-72 h-96 card-container mt-4 shadow-xl">
+                        <div className="card  w-80 mx-auto my-7 md:w-72 h-96 card-container mt-4 shadow-xl">
                             <figure className="px-1 pt-7">
-                                <img src={art1} alt="Shoes" className="rounded-xl w-64 h-80 pt-2" />
+                                <img src={art1} alt="Shoes" className="rounded-xl w-10/12 md:w-64 h-80 pt-2" />
                             </figure>
                             <div className="text-center my-2">
                                 <h2 className="text-2xl font-bold" >#Metaverse</h2>
@@ -31,7 +31,7 @@ const ArtWorks = () => {
                             </div>
                         </div>
                         {/* art2 */}
-                        <div className="card w-72 mt-[-25px]  h-96 card-container shadow-xl">
+                        <div className="card w-80 mx-auto my-7 md:w-72 mt-2 md:mt-[-25px]   h-96 card-container shadow-xl">
                             <figure className="px-1 pt-7">
                                 <img src={art2} alt="Shoes" className="rounded-xl w-64 h-80 pt-2" />
                             </figure>
@@ -41,7 +41,7 @@ const ArtWorks = () => {
                             </div>
                         </div>
                         {/* art3 */}
-                        <div className="card w-72 h-96 card-container mt-4 shadow-xl">
+                        <div className="card w-80 mx-auto my-7 md:w-72 h-96 card-container mt-4 shadow-xl">
                             <figure className="px-1 pt-7">
                                 <img src={art3} alt="Shoes" className="rounded-xl w-64 h-80 pt-2" />
                             </figure>
@@ -51,7 +51,7 @@ const ArtWorks = () => {
                             </div>
                         </div>
                         {/* art4 */}
-                        <div className="card w-72 h-96 mt-[-25px] card-container shadow-xl">
+                        <div className="card w-80 mx-auto my-7 mt-2 md:mt-[-25px]  md:w-72 h-96  card-container shadow-xl">
                             <figure className="px-1 pt-7">
                                 <img src={art4} alt="Shoes" className="rounded-xl w-64 h-80 pt-2" />
                             </figure>
@@ -61,7 +61,7 @@ const ArtWorks = () => {
                             </div>
                         </div>
                         {/* art5 */}
-                        <div className="card w-72 h-96 card-container mt-4 shadow-xl">
+                        <div className="card w-80 mx-auto my-7 md:w-72 card-container mt-4 shadow-xl">
                             <figure className="px-1 pt-7">
                                 <img src={art5} alt="Shoes" className="rounded-xl w-64 h-80 pt-2" />
                             </figure>
@@ -71,7 +71,7 @@ const ArtWorks = () => {
                             </div>
                         </div>
                         {/* art6 */}
-                        <div className="card w-72 mt-[-25px] h-96 card-container  shadow-xl">
+                        <div className="card w-80 mx-auto my-7 md:w-72 mt-[-25px] h-96 card-container  shadow-xl">
                             <figure className="px-1 pt-7">
                                 <img src={art6} alt="Shoes" className="rounded-xl w-64 h-80 pt-2" />
                             </figure>
@@ -81,7 +81,7 @@ const ArtWorks = () => {
                             </div>
                         </div>
                         {/* art7 */}
-                        <div className="card w-72 h-96 card-container mt-4 shadow-xl">
+                        <div className="card w-80 mx-auto my-7 md:w-72h-96 card-container mt-4 shadow-xl">
                             <figure className="px-1 pt-7">
                                 <img src={art7} alt="Shoes" className="rounded-xl w-64 h-80 pt-2" />
                             </figure>
@@ -91,7 +91,7 @@ const ArtWorks = () => {
                             </div>
                         </div>
                         {/* art8 */}
-                        <div className="card w-72 h-96 card-container  shadow-xl">
+                        <div className="card w-80 mx-auto my-7 md:w-72 h-96 mt-2 md:mt-[-25px]  card-container  shadow-xl">
                             <figure className="px-1 pt-7">
                                 <img src={art8} alt="Shoes" className="rounded-xl w-64 h-80 pt-2" />
                             </figure>
