@@ -24,7 +24,7 @@ const Navbar = () => {
                 </div>
                 <a className="btn btn-ghost text-xl"> <img className="w-10/12" src={logo} alt="" /></a>
                 <div className="flex lg:hidden place-items-end">
-                    <a className="btn btn-outline ml-10 md:ml-0 mt-2 lg:mt-0 justify-end text-white rounded-2xl">Connect Wallet</a>
+                    <a className="btn btn-outline ml-2 md:ml-0 mt-2 lg:mt-0 justify-end text-white rounded-2xl">Connect Wallet</a>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">

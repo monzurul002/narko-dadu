@@ -29,13 +29,18 @@ const Roadmap = () => {
                             pagination={{
                                 clickable: true,
                             }}
+                            breakpoints={{
+                                320: { slidesPerView: 1, spaceBetween: 30 },
+                                480: { slidesPerView: 4, spaceBetween: 150 },
 
+
+                            }}
                             modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                             className="mySwiper"
                         >
 
                             <SwiperSlide className='' >
-                                <div className="card card-compact w-96  card-container  shadow-xl p-6">
+                                <div className="card card-compact  w-80 md:w-96    mx-5 md:mx-[-25px] card-container  shadow-xl p-6">
                                     <div className='flex justify-between '>
                                         <h4 className='bg-gradient-to-r from-indigo-700 to-pink-600 text-transparent bg-clip-text'>PHASE 01</h4>
                                         <div className='bg-gradient-to-r from-indigo-700 to-pink-600 rounded-full w-14 h-14'>
@@ -73,7 +78,7 @@ const Roadmap = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide >
-                                <div className="card card-compact w-96 mx-10 card-container  shadow-xl p-6">
+                                <div className="card card-compact w-80 md:w-96    mx-5 md:mx-[20px] card-container  shadow-xl p-6">
                                     <div className='flex justify-between '>
                                         <h4 className='bg-gradient-to-r from-indigo-700 to-pink-600 text-transparent bg-clip-text'>PHASE 02</h4>
                                         <div className='bg-gradient-to-r from-indigo-700 to-pink-600 rounded-full w-14 h-14'>
@@ -111,9 +116,9 @@ const Roadmap = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='mx-10' >
-                                <div className="card card-compact w-96 mx-10 card-container  shadow-xl p-6">
+                                <div className="card card-compact w-80 md:w-96    mx-5 md:mx-[20px] card-container  shadow-xl p-6">
                                     <div className='flex justify-between '>
-                                        <h4 className='bg-gradient-to-r from-indigo-700 to-pink-600 text-transparent bg-clip-text'>PHASE 02</h4>
+                                        <h4 className='bg-gradient-to-r from-indigo-700 to-pink-600 text-transparent bg-clip-text'>PHASE 03</h4>
                                         <div className='bg-gradient-to-r from-indigo-700 to-pink-600 rounded-full w-14 h-14'>
 
                                             <div className='font-bold   rotate-12	 w-8 h-8 ml-3 space-y-[-8px]'>
@@ -148,8 +153,8 @@ const Roadmap = () => {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className='mx-10' >
-                                <div className="card card-compact w-96 mx-10 card-container  shadow-xl p-6">
+                            <SwiperSlide className='' >
+                                <div className="card card-compact w-80 md:w-96    mx-5 md:mx-[55px] card-container  shadow-xl p-6">
                                     <div className='flex justify-between '>
                                         <h4 className='bg-gradient-to-r from-indigo-700 to-pink-600 text-transparent bg-clip-text'>PHASE 04</h4>
                                         <div className='bg-gradient-to-r from-indigo-700 to-pink-600 rounded-full w-14 h-14'>
@@ -186,10 +191,10 @@ const Roadmap = () => {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className='mx-20' >
-                                <div className="card card-compact w-96  card-container  shadow-xl p-6">
+                            <SwiperSlide className='' >
+                                <div className="card card-compact w-80 md:w-96    mx-5 md:mx-[90px]  card-container  shadow-xl p-6">
                                     <div className='flex justify-between '>
-                                        <h4 className='bg-gradient-to-r from-indigo-700 to-pink-600 text-transparent bg-clip-text'>PHASE 01</h4>
+                                        <h4 className='bg-gradient-to-r from-indigo-700 to-pink-600 text-transparent bg-clip-text'>PHASE 05</h4>
                                         <div className='bg-gradient-to-r from-indigo-700 to-pink-600 rounded-full w-14 h-14'>
 
                                             <div className='font-bold   rotate-12	 w-8 h-8 ml-3 space-y-[-8px]'>

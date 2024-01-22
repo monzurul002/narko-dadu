@@ -40,9 +40,9 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="text-center py-16 space-x-8 mt-[600px] lg:mt-5">
+                <div className="text-center py-16  md:space-x-8  space-x-5 mt-[600px] lg:mt-5">
                     <h3 className="font-bold py-4">POWERED BY AMAZING INVESTORS</h3>
-                    <div className="grid grid-cols-5 gap-8">
+                    <div className="grid grid-cols-3  md:grid-cols-5  gap-8">
                         <div className="flex gap-2">
                             <img src={metamask} alt="" />
 

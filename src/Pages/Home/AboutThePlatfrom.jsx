@@ -55,11 +55,10 @@ const AboutThePlatfrom = () => {
                             <h2 className="font-extrabold bg-gradient-to-r from-purple-500 to-pink-600 text-transparent bg-clip-text ">CREATE AND INVEST</h2>
                             <h1 className="text-5xl font-extrabold ">Create your own NFT</h1>
                             <p className="text-xl text-slate-400">Multiple Chains, One Home. Stack up all your NFTs from across blockchains.</p>
-                            <div className="flex  flex-col md:flex-row  mt-6 justify-between gap-12 md:gap-24 space-x-2 md:space-x-10">
+                            <div className="flex  flex-col md:flex-row  mt-6 justify-between gap-10 md:gap-24 space-x-2 md:space-x-10">
                                 <div className="space-y-4 w-1/2">
                                     <h2 className="text-6xl font-extrabold">4,500+</h2>
-                                    <p className="text-slate-500 font-bold">Collections Indexed
-                                        every 5mins.</p>
+                                    <p className="text-slate-500 font-bold">Collections Indexed every 5mins.</p>
                                 </div>
                                 <div className="space-y-2 w-full md:w-1/2">
                                     <h2 className="text-6xl font-extrabold">3x</h2>

@@ -11,24 +11,24 @@ const Blogs = () => {
         <div>
             <Navbar></Navbar>
             <div className="pt-20 w-11/12 mx-auto">
-                <h1 className="text-7xl text-center py-12 font-extrabold">Category: Blockchain</h1>
+                <h1 className="text-5xl md:text-7xl text-center py-12 font-extrabold">Category: Blockchain</h1>
                 <div className="grid grid-cols-1 py-6 md:grid-cols-8">
                     <div className="col-span-6 px-5">
                         <div>
                             <img src={img1} className="rounded-2xl" alt="" />
-                            <div className="flex justify-start gap-10 py-3">
+                            <div className="flex justify-start gap-3 md:gap-10 py-3">
                                 <div className="flex gap-2 justify-center items-center">
                                     <FaRegUser className="inline text-indigo-800" />
                                     <p className="text-slate-400 font-semibold">Nerko</p>
 
                                 </div>
-                                <div className="flex gap-2 justify-center items-center">
+                                <div className="flex gap-2 text-center justify-center items-center">
                                     <SlCalender
                                         className="inline text-indigo-800" />
-                                    <p className="text-slate-400 font-semibold">2 February,2024</p>
+                                    <p className="text-slate-400 inline font-semibold">2 February,2024</p>
 
                                 </div>
-                                <div className="flex gap-2 justify-center items-center">
+                                <div className="flex gap-2 text-center justify-center items-center">
                                     <FaRegComments
                                         className="inline text-indigo-800" />
                                     <p className="text-slate-400 font-semibold">89 Comment</p>
@@ -44,19 +44,19 @@ const Blogs = () => {
                         </div>
                         <div className="mt-14">
                             <img src={img2} className="rounded-2xl" alt="" />
-                            <div className="flex justify-start gap-10 py-3">
+                            <div className="flex justify-start gap-3 md:gap-10 py-3">
                                 <div className="flex gap-2 justify-center items-center">
                                     <FaRegUser className="inline text-indigo-800" />
                                     <p className="text-slate-400 font-semibold">Nerko</p>
 
                                 </div>
-                                <div className="flex gap-2 justify-center items-center">
+                                <div className="flex gap-2 text-center justify-center items-center">
                                     <SlCalender
                                         className="inline text-indigo-800" />
-                                    <p className="text-slate-400 font-semibold">1 February,2024</p>
+                                    <p className="text-slate-400 inline font-semibold">2 February,2024</p>
 
                                 </div>
-                                <div className="flex gap-2 justify-center items-center">
+                                <div className="flex gap-2 text-center justify-center items-center">
                                     <FaRegComments
                                         className="inline text-indigo-800" />
                                     <p className="text-slate-400 font-semibold">89 Comment</p>
@@ -72,19 +72,19 @@ const Blogs = () => {
                         </div>
                         <div className="mt-14">
                             <img src={img3} className="rounded-2xl" alt="" />
-                            <div className="flex justify-start gap-10 py-3">
+                            <div className="flex justify-start gap-3 md:gap-10 py-3">
                                 <div className="flex gap-2 justify-center items-center">
                                     <FaRegUser className="inline text-indigo-800" />
                                     <p className="text-slate-400 font-semibold">Nerko</p>
 
                                 </div>
-                                <div className="flex gap-2 justify-center items-center">
+                                <div className="flex gap-2 text-center justify-center items-center">
                                     <SlCalender
                                         className="inline text-indigo-800" />
-                                    <p className="text-slate-400 font-semibold">2 February,2024</p>
+                                    <p className="text-slate-400 inline font-semibold">2 February,2024</p>
 
                                 </div>
-                                <div className="flex gap-2 justify-center items-center">
+                                <div className="flex gap-2 text-center justify-center items-center">
                                     <FaRegComments
                                         className="inline text-indigo-800" />
                                     <p className="text-slate-400 font-semibold">89 Comment</p>

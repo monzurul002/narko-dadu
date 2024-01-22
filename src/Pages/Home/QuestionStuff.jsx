@@ -78,10 +78,10 @@ const QuestionStuff = () => {
                         <button className="px-6 font-bold rounded-full   py-5 bg-gradient-to-r from-indigo-600 to-pink-500">Join Our Community <FaArrowRight className="inline animate-spin-slow" />
                         </button>
                     </div>
-                    <img className="absolute bottom-0 left-64 w-10" src={bitcoin} alt="" />
-                    <img className="absolute top-20 left-60" src={circle} alt="" />
-                    <img className="absolute bottom-0 right-36 w-12" src={ethereum2} alt="" />
-                    <img className="absolute top-20 right-32 w-7" src={x} alt="" />
+                    <img className="absolute bottom-0 left-12 md:left-64 w-6 md:w-10" src={bitcoin} alt="" />
+                    <img className="absolute top-4 md:top-20 left-60" src={circle} alt="" />
+                    <img className="absolute bottom-32 md:bottom-0 right-8 md:right-36 w-10 md:w-12" src={ethereum2} alt="" />
+                    <img className="absolute top-8 md:top-20 right-56 md:right-32 w-5  md:w-7" src={x} alt="" />
                 </div>
                 <div className="flex justify-center py-20 ">
                     <img src={divider} className="w-24" alt="" />
@@ -91,8 +91,8 @@ const QuestionStuff = () => {
                 <div className=" flex justify-center items-center   py-8 relative ">
                     <img src={nerko} className="" alt="" />
 
-                    <img className="absolute top-20 right-60" src={circle} alt="" />
-                    <img className="absolute bottom-0 left-56 animate-spin-slow w-12" src={ethereum2} alt="" />
+                    <img className="absolute top-1  md:top-20 left-10 md:right-60" src={circle} alt="" />
+                    <img className="absolute bottom-0 lg:hidden right-4 top-1 md:top-0 md:left-56 animate-spin-slow w-10" src={ethereum2} alt="" />
 
                 </div>
                 <p className=" text-xl text-center mt-[-30px]">We make it easy to Discover, Invest and manage all your NFTs at one place.</p>
@@ -110,7 +110,7 @@ const QuestionStuff = () => {
                     <p >© 2023 Nerko. All rights reserved.</p>
                     <p>Privacy policy
                         Terms of use</p>
-                    <img src={circle3} className="absolute bottom-0 left-80 top-2 w-8 " alt="" />
+                    <img src={circle3} className="absolute bottom-0 left-80 top-2 w-5 md:w-8 " alt="" />
                 </div>
             </div>
 
